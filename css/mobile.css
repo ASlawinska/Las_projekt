@@ -148,4 +148,13 @@ span {
 #aboutUs p {
   padding: 0 15px;
 }
+
+#reserve .jumbotron {
+  background-color: #031a0c;
+}
+
+#reserve .card {
+  padding: 20px;
+  margin: 20px 20px;
+}
 /*# sourceMappingURL=mobile.css.map */
