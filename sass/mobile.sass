@@ -1,0 +1,106 @@
+$yellow-color: #f5e23d
+$green-color: #031a0c
+$grey-color: #c7c7c5
+
+    
+html
+    scroll-behavior: smooth
+body
+    position: relative
+    font-family: 'Rubik', sans-serif
+    font-size: 16px
+    background-color: $green-color
+    color: $grey-color
+
+h1, h2, h3
+    font-family: 'Caveat', cursive
+span
+    font-family: 'Caveat', cursive
+    font-size: 25px
+    color: #33e007
+/** .scroll-fix::before // klasa pozwalająca na nie zakrywanie paska menu przy zmianie kart
+    display: block
+    height: 85px
+    top: -85px
+    content: '' **/
+.wrapper
+    width: 80%
+    max-width: 2560px
+    margin: 0 auto
+.jumbotron
+    margin: 0
+/** .visibility
+    visibility: hidden **/
+.light-section
+    color: $green-color
+.underline
+    hr
+        border-top: 10px dotted $yellow-color
+        width: 50px
+
+
+//navigation
+#navbar
+    text-transform: uppercase
+    a 
+        color: $grey-color
+    a:hover
+        color: $yellow-color
+    i
+        color: #33e007
+        font-size: 35px
+        padding: 10px 20px
+    .fa-bars
+        color: $yellow-color
+    .active // klasa z bootstrapa, nadpisanie koloru
+        color: $yellow-color
+.shadow-bg
+    background-color: #040e00ad
+    transition: background-color .5s
+
+//header 
+#home
+    overflow: hidden
+    .img-home
+        background-image: url(../img/las_bg_home.jpg)
+        height: 100vh
+        position: relative
+        background-attachment: fixed
+        background-size: cover
+        background-position: center
+        z-index: 0
+        .text-home
+            display: flex
+            text-align: center
+            align-items: center
+            justify-content: center
+            height: 100%
+            flex-direction: column
+            color: $yellow-color
+            z-index: 10
+            .fa-chevron-down
+                display: none // brak strałki na mobi
+
+        .shadow
+            position: absolute
+            width: 100%
+            height: 100%
+            background-color: rgba(1, 43, 18, 0.733)
+            z-index: -10
+//AboutUS
+#aboutUs
+    overflow: hidden
+    h2
+        font-weight: bold
+        text-transform: uppercase
+    i
+        font-size: 30px
+        padding: 15px 0
+        transition: color .3s
+    i:hover
+        color: $yellow-color
+    p
+        padding: 0 15px
+        
+
+

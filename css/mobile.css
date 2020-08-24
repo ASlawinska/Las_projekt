@@ -1,0 +1,151 @@
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  background-color: #031a0c;
+  color: #c7c7c5;
+}
+
+h1, h2, h3 {
+  font-family: 'Caveat', cursive;
+}
+
+span {
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+  color: #33e007;
+}
+
+/** .scroll-fix::before // klasa pozwalająca na nie zakrywanie paska menu przy zmianie kart
+    display: block
+    height: 85px
+    top: -85px
+    content: '' **/
+.wrapper {
+  width: 80%;
+  max-width: 2560px;
+  margin: 0 auto;
+}
+
+.jumbotron {
+  margin: 0;
+}
+
+/** .visibility
+    visibility: hidden **/
+.light-section {
+  color: #031a0c;
+}
+
+.underline hr {
+  border-top: 10px dotted #f5e23d;
+  width: 50px;
+}
+
+#navbar {
+  text-transform: uppercase;
+}
+
+#navbar a {
+  color: #c7c7c5;
+}
+
+#navbar a:hover {
+  color: #f5e23d;
+}
+
+#navbar i {
+  color: #33e007;
+  font-size: 35px;
+  padding: 10px 20px;
+}
+
+#navbar .fa-bars {
+  color: #f5e23d;
+}
+
+#navbar .active {
+  color: #f5e23d;
+}
+
+.shadow-bg {
+  background-color: #040e00ad;
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
+}
+
+#home {
+  overflow: hidden;
+}
+
+#home .img-home {
+  background-image: url(../img/las_bg_home.jpg);
+  height: 100vh;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+#home .img-home .text-home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #f5e23d;
+  z-index: 10;
+}
+
+#home .img-home .text-home .fa-chevron-down {
+  display: none;
+}
+
+#home .img-home .shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(1, 43, 18, 0.733);
+  z-index: -10;
+}
+
+#aboutUs {
+  overflow: hidden;
+}
+
+#aboutUs h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#aboutUs i {
+  font-size: 30px;
+  padding: 15px 0;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+#aboutUs i:hover {
+  color: #f5e23d;
+}
+
+#aboutUs p {
+  padding: 0 15px;
+}
+/*# sourceMappingURL=mobile.css.map */

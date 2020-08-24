@@ -1,0 +1,9 @@
+#home .img-home .text-home .fa-chevron-down {
+  display: block;
+  position: absolute;
+  bottom: 25px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 20px;
+}
+/*# sourceMappingURL=medium.css.map */
