@@ -14,6 +14,9 @@ body
 
 h1, h2, h3
     font-family: 'Caveat', cursive
+h2
+    text-transform: uppercase
+    font-weight: bold
 span
     font-family: 'Caveat', cursive
     font-size: 25px
@@ -90,9 +93,6 @@ span
 //AboutUS
 #aboutUs
     overflow: hidden
-    h2
-        font-weight: bold
-        text-transform: uppercase
     i
         font-size: 30px
         padding: 15px 0
@@ -121,8 +121,30 @@ span
     .jumbotron
         .card-title
             text-transform: uppercase
+            color: $green-color
         #carouselExampleCaptions
             display: none
+//Animal section
+#animal
+    .jumbotron
+        background-color: $green-color
+    .card
+        padding: 20px
+        margin: 20px 20px
+        transition: transform(0.5s)
+        h5
+            text-transform: uppercase
+            color: $green-color
+            font-weight: bold
+        p
+            color: $green-color
+        img
+            max-height: 145px
+            object-fit: cover
+    .card:hover
+        transform: scale(.9)
+    .btn
+        
 
 
 

@@ -14,6 +14,11 @@ h1, h2, h3 {
   font-family: 'Caveat', cursive;
 }
 
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 span {
   font-family: 'Caveat', cursive;
   font-size: 25px;
@@ -130,11 +135,6 @@ span {
   overflow: hidden;
 }
 
-#aboutUs h2 {
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
 #aboutUs i {
   font-size: 30px;
   padding: 15px 0;
@@ -180,9 +180,43 @@ span {
 
 #tree .jumbotron .card-title {
   text-transform: uppercase;
+  color: #031a0c;
 }
 
 #tree .jumbotron #carouselExampleCaptions {
   display: none;
+}
+
+#animal .jumbotron {
+  background-color: #031a0c;
+}
+
+#animal .card {
+  padding: 20px;
+  margin: 20px 20px;
+  -webkit-transition: transform(0.5s), transform(0.5s);
+  transition: transform(0.5s), transform(0.5s);
+  transition: transform(0.5s);
+}
+
+#animal .card h5 {
+  text-transform: uppercase;
+  color: #031a0c;
+  font-weight: bold;
+}
+
+#animal .card p {
+  color: #031a0c;
+}
+
+#animal .card img {
+  max-height: 145px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#animal .card:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 /*# sourceMappingURL=mobile.css.map */
