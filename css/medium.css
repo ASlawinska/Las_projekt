@@ -6,4 +6,60 @@
           transform: translateX(-50%);
   font-size: 20px;
 }
+
+#reserve .card {
+  height: 660px;
+}
+
+#reserve .card img {
+  max-height: 118px;
+}
+
+#tree .jumbotron .card-mobile {
+  display: none;
+}
+
+#tree .jumbotron #carouselExampleCaptions {
+  display: block;
+}
+
+#tree .jumbotron #carouselExampleCaptions .carousel-item {
+  position: relative;
+}
+
+#tree .jumbotron #carouselExampleCaptions .carousel-item img {
+  height: 400px;
+}
+
+#tree .jumbotron #carouselExampleCaptions .carousel-item .text-carousel {
+  position: absolute;
+  background-color: rgba(1, 43, 18, 0.733);
+  width: 100%;
+  left: 0;
+  right: 0;
+  padding-bottom: 20px;
+}
+
+#tree .jumbotron #carouselExampleCaptions .carousel-item .text-carousel h5 {
+  text-transform: uppercase;
+}
+
+#tree .jumbotron #carouselExampleCaptions .carousel-item .carousel-indicators {
+  padding-bottom: 20px;
+}
+
+@media (min-width: 820px) {
+  #reserve .card {
+    height: 600px;
+  }
+}
+
+@media (min-width: 910px) {
+  #reserve .card {
+    height: 550px;
+  }
+  #reserve .card img {
+    max-height: 148px;
+  }
+}
 /*# sourceMappingURL=medium.css.map */

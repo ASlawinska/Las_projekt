@@ -18,11 +18,11 @@ span
     font-family: 'Caveat', cursive
     font-size: 25px
     color: #33e007
-/** .scroll-fix::before // klasa pozwalająca na nie zakrywanie paska menu przy zmianie kart
+.scroll-fix::before
     display: block
     height: 85px
-    top: -85px
-    content: '' **/
+    margin-top: -85px
+    content: ''
 .wrapper
     width: 80%
     max-width: 2560px
@@ -107,5 +107,25 @@ span
     .card
         padding: 20px
         margin: 20px 20px
+        transition: transform(0.5s)
+        p
+            color: $green-color
+            text-align: left
+        img
+            max-height: 145px
+            object-fit: cover
+    .card:hover
+        transform: scale(1.05)
+//TREE section
+#tree
+    .jumbotron
+        .card-title
+            text-transform: uppercase
+        #carouselExampleCaptions
+            display: none
+
+
+
+
 
 
