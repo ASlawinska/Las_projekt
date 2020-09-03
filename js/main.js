@@ -18,3 +18,44 @@ $(document).click(function (event) {
         $(".navbar-toggler").click();
     }
 });
+// Slick karuzela animal 
+$('.animal-carusel').slick({
+  //   setting-name: setting-value
+ autoplay: true,
+ autopllaySpeed: 3800,
+ mobileFirst: true,
+ centerMode: true,
+ centerPadding: '60px',
+ slideToShow: 1,
+ slideToScroll: 1,
+ responsive: [
+     {
+       breakpoint: 768,
+       settings: {
+        centerMode: true,
+        centerPadding: '40px',
+         slidesToShow: 2,
+         slidesToScroll: 1
+       }
+     },
+     {
+       breakpoint: 992,
+       settings: {
+        centerMode: true,
+        centerPadding: '40px',
+         slidesToShow: 3,
+         slidesToScroll: 1
+       }
+     },
+     {
+       breakpoint: 1600,
+       settings: {
+        centerMode: true,
+        centerPadding: '40px',
+         slidesToShow: 4,
+         slidesToScroll: 1
+       }
+     }
+   ]
+   });
+   
