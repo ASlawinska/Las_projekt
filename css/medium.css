@@ -48,6 +48,10 @@
   padding-bottom: 20px;
 }
 
+#animal .wrapper {
+  width: 80%;
+}
+
 @media (min-width: 820px) {
   #reserve .card {
     height: 600px;

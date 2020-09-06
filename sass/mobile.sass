@@ -128,27 +128,61 @@ span
 #animal
     .jumbotron
         background-color: $green-color
-    .card
-        padding: 20px
-        margin: 20px 20px
-        transition: transform (0.5s)
-        h5
-            text-transform: uppercase
-            color: $green-color
-            font-weight: bold
-        p
-            color: $green-color
-        img
-            object-fit: cover
-    .card:hover
-        transform: scale(.9)
-    .btn
-        background-color: $yellow-color
-        border: 1px solid $grey-color
-    .btn:hover
-        font-weight: bold
-        background-color: $green-color
-        color: $yellow-color
+        .wrapper
+            width: 100%
+            .card
+                padding: 20px
+                margin: 20px 20px
+                transition: transform (0.5s)
+                .card-body
+                    padding: 5px 2px
+                    height: 400px
+                    display: flex
+                    flex-direction: column
+                    justify-content: center
+                    h5
+                        text-transform: uppercase
+                        color: $green-color
+                        font-weight: bold
+                        font-size: 18px
+                    p
+                        color: $green-color
+                        font-size: 14px
+                img
+                    object-fit: cover
+            .card:hover
+                transform: scale(.9)
+            .btn
+                background-color: $yellow-color
+                border: 1px solid $grey-color
+            .btn:hover
+                font-weight: bold
+                background-color: $green-color
+                color: $yellow-color
+
+//media queriers
+@media ( min-width: 400px )
+    #animal
+        .jumbotron
+            .wrapper
+                .card
+                    img
+                        height: 138px
+                    .card-body
+                        height: 220px
+@media ( min-width: 520px )
+    #animal
+        .jumbotron
+            .wrapper
+                .card
+                    img
+                        height: 200px
+                    .card-body
+                        p
+                            font-size: 16px
+
+
+    
 
 
 

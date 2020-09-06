@@ -192,7 +192,11 @@ span {
   background-color: #031a0c;
 }
 
-#animal .card {
+#animal .jumbotron .wrapper {
+  width: 100%;
+}
+
+#animal .jumbotron .wrapper .card {
   padding: 20px;
   margin: 20px 20px;
   -webkit-transition: -webkit-transform 0.5s;
@@ -201,34 +205,69 @@ span {
   transition: transform 0.5s, -webkit-transform 0.5s;
 }
 
-#animal .card h5 {
+#animal .jumbotron .wrapper .card .card-body {
+  padding: 5px 2px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#animal .jumbotron .wrapper .card .card-body h5 {
   text-transform: uppercase;
   color: #031a0c;
   font-weight: bold;
+  font-size: 18px;
 }
 
-#animal .card p {
+#animal .jumbotron .wrapper .card .card-body p {
   color: #031a0c;
+  font-size: 14px;
 }
 
-#animal .card img {
+#animal .jumbotron .wrapper .card img {
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-#animal .card:hover {
+#animal .jumbotron .wrapper .card:hover {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
 }
 
-#animal .btn {
+#animal .jumbotron .wrapper .btn {
   background-color: #f5e23d;
   border: 1px solid #c7c7c5;
 }
 
-#animal .btn:hover {
+#animal .jumbotron .wrapper .btn:hover {
   font-weight: bold;
   background-color: #031a0c;
   color: #f5e23d;
+}
+
+@media (min-width: 400px) {
+  #animal .jumbotron .wrapper .card img {
+    height: 138px;
+  }
+  #animal .jumbotron .wrapper .card .card-body {
+    height: 220px;
+  }
+}
+
+@media (min-width: 520px) {
+  #animal .jumbotron .wrapper .card img {
+    height: 200px;
+  }
+  #animal .jumbotron .wrapper .card .card-body p {
+    font-size: 16px;
+  }
 }
 /*# sourceMappingURL=mobile.css.map */

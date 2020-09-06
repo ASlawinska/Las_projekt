@@ -1,1 +1,9 @@
-/* No CSS *//*# sourceMappingURL=small.css.map */
+@media (min-width: 620px) {
+  #animal .jumbotron .wrapper .card img {
+    height: 250px;
+  }
+  #animal .jumbotron .wrapper .card .card-body {
+    height: 250px;
+  }
+}
+/*# sourceMappingURL=small.css.map */
