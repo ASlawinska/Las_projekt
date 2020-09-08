@@ -253,6 +253,17 @@ span {
   color: #f5e23d;
 }
 
+#undergrowth h5 {
+  padding: 10px 0;
+  font-weight: bold;
+  color: #031a0c;
+}
+
+#undergrowth .img-undergrowth {
+  width: 100%;
+  border-radius: 50%;
+}
+
 @media (min-width: 400px) {
   #animal .jumbotron .wrapper .card img {
     height: 138px;
