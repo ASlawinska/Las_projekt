@@ -41,5 +41,14 @@
   #reserve .card img {
     max-height: 250px;
   }
+  #animal .jumbotron .wrapper .card .card-body {
+    height: 270px;
+  }
+  #animal .jumbotron .wrapper .card .card-body p {
+    font-size: 20px;
+  }
+  #animal .jumbotron .wrapper .card .card-body h5 {
+    font-size: 24px;
+  }
 }
 /*# sourceMappingURL=large.css.map */
