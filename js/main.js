@@ -58,4 +58,11 @@ $('.animal-carusel').slick({
      }
    ]
    });
-   
+//Slick karuzela trip galery
+   $('.carousel-trip').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear'
+  });

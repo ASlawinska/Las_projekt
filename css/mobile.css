@@ -264,6 +264,10 @@ span {
   border-radius: 50%;
 }
 
+#trip .jumbotron {
+  background-color: #031a0c;
+}
+
 @media (min-width: 400px) {
   #animal .jumbotron .wrapper .card img {
     height: 138px;
