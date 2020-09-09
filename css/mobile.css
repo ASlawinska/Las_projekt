@@ -85,6 +85,14 @@ span {
   transition: background-color .5s;
 }
 
+.shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(1, 43, 18, 0.733);
+  z-index: -10;
+}
+
 #home {
   overflow: hidden;
 }
@@ -121,14 +129,6 @@ span {
 
 #home .img-home .text-home .fa-chevron-down {
   display: none;
-}
-
-#home .img-home .shadow {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(1, 43, 18, 0.733);
-  z-index: -10;
 }
 
 #aboutUs {
@@ -268,12 +268,53 @@ span {
   background-color: #031a0c;
 }
 
+#trip .jumbotron .wrapper .carousel-trip img {
+  max-height: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#contact {
+  overflow: hidden;
+}
+
+#contact .img-contact {
+  background-image: url(../img/las_bg_contact.jpg);
+  height: 100vh;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+#contact .img-contact h2 {
+  padding-top: 50px;
+}
+
+#contact .img-contact h3 {
+  font-weight: bold;
+}
+
+#contact .img-contact i {
+  color: #f5e23d;
+  font-size: 25px;
+  padding: 0 10px;
+}
+
+#contact .img-contact .col-md-4 {
+  padding-top: 50px;
+}
+
 @media (min-width: 400px) {
   #animal .jumbotron .wrapper .card img {
     height: 138px;
   }
   #animal .jumbotron .wrapper .card .card-body {
     height: 220px;
+  }
+  #trip .jumbotron .wrapper .carousel-trip img {
+    max-height: 177px;
   }
 }
 
@@ -283,6 +324,9 @@ span {
   }
   #animal .jumbotron .wrapper .card .card-body p {
     font-size: 16px;
+  }
+  #trip .jumbotron .wrapper .carousel-trip img {
+    max-height: 220px;
   }
 }
 /*# sourceMappingURL=mobile.css.map */

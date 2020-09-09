@@ -1,3 +1,11 @@
+#reserve .card {
+  height: 490px;
+}
+
+#reserve .card img {
+  max-height: 160px;
+}
+
 #tree .jumbotron #carouselExampleCaptions .carousel-item img {
   height: 500px;
 }
@@ -13,13 +21,8 @@
   margin: 0 auto;
 }
 
-@media (min-width: 1000px) {
-  #reserve .card {
-    height: 490px;
-  }
-  #reserve .card img {
-    max-height: 160px;
-  }
+#trip .jumbotron .wrapper .carousel-trip img {
+  max-height: 410px;
 }
 
 @media (min-width: 1200px) {
@@ -31,6 +34,9 @@
   }
   #tree .jumbotron #carouselExampleCaptions .carousel-item img {
     height: 600px;
+  }
+  #trip .jumbotron .wrapper .carousel-trip img {
+    max-height: 440px;
   }
 }
 
@@ -49,6 +55,20 @@
   }
   #animal .jumbotron .wrapper .card .card-body h5 {
     font-size: 24px;
+  }
+  #trip .jumbotron .wrapper .carousel-trip {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #trip .jumbotron .wrapper .carousel-trip img {
+    max-height: 600px;
   }
 }
 /*# sourceMappingURL=large.css.map */
