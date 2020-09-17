@@ -42,8 +42,6 @@ span {
   margin: 0;
 }
 
-/** .visibility
-    visibility: hidden **/
 .light-section {
   color: #031a0c;
 }
@@ -136,8 +134,8 @@ span {
 }
 
 #aboutUs i {
-  font-size: 30px;
-  padding: 15px 0;
+  font-size: 50px;
+  padding: 15px 30px;
   -webkit-transition: color .3s;
   transition: color .3s;
 }
@@ -274,13 +272,8 @@ span {
      object-fit: cover;
 }
 
-#contact {
-  overflow: hidden;
-}
-
 #contact .img-contact {
   background-image: url(../img/las_bg_contact.jpg);
-  height: 100vh;
   position: relative;
   background-attachment: fixed;
   background-size: cover;
@@ -300,6 +293,15 @@ span {
   color: #f5e23d;
   font-size: 25px;
   padding: 0 10px;
+}
+
+#contact .img-contact .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #contact .img-contact .col-md-4 {

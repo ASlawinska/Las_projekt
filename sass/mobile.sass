@@ -32,14 +32,13 @@ span
     margin: 0 auto
 .jumbotron
     margin: 0
-/** .visibility
-    visibility: hidden **/
 .light-section
     color: $green-color
 .underline
     hr
         border-top: 10px dotted $yellow-color
         width: 50px
+ 
 
 
 //navigation
@@ -94,8 +93,8 @@ span
 #aboutUs
     overflow: hidden
     i
-        font-size: 30px
-        padding: 15px 0
+        font-size: 50px
+        padding: 15px 30px
         transition: color .3s
     i:hover
         color: $yellow-color
@@ -176,13 +175,10 @@ span
                 img
                     max-height: 160px
                     object-fit: cover
-//media queriers
 // contact section
 #contact
-    overflow: hidden
     .img-contact
         background-image: url(../img/las_bg_contact.jpg)
-        height: 100vh
         position: relative
         background-attachment: fixed
         background-size: cover
@@ -196,9 +192,13 @@ span
             color: $yellow-color
             font-size: 25px
             padding: 0 10px
+        .row
+            display: flex
+            align-items: center
         .col-md-4
             padding-top: 50px
 
+//media queriers
 @media ( min-width: 400px )
     #animal
         .jumbotron
